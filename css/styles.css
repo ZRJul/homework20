@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.work {
+    padding-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 1.65px;
+    color: #35B8BE;
+    margin-bottom: 66px;
+}
+.slider{
+    display: flex;
+    text-align: center;
+}
+.slider .card {
+    max-width: 333px;
+    border: none;
+    margin: auto;
+}
+
+.slider img {
+    margin-bottom: 48px;
+}
+
+.slider a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.66px;
+    color: #08090A;
+}
+
+.slider h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #546285;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+#prev-button,
+#next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #35B8BE;
+    border-radius: 5px;
+    border: none;
+    color: #546285;
+}
+
+#prev-button {
+    left: 250px;
+}
+
+#next-button {
+    right:250px;
+}
+
+
